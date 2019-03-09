@@ -13,6 +13,7 @@ public class CPA implements AccountBookViewer {
     }
 
     //如果是收入，则所有的收入都要交税
+    @Override
     public void view(IncomeBill bill) {
         System.out.println("注会查看收入交税了没。");
     }

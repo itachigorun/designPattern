@@ -15,6 +15,7 @@ public class ConsumeBill implements Bill {
         this.item = item;
     }
 
+    @Override
     public void accept(AccountBookViewer viewer) {
         viewer.view(this);
     }
