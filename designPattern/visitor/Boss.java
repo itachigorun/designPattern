@@ -14,6 +14,7 @@ public class Boss implements AccountBookViewer {
         totalConsume += bill.getAmount();
     }
 
+    @Override
     public void view(IncomeBill bill) {
         totalIncome += bill.getAmount();
     }
