@@ -9,7 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * 多线程，加锁同步
+ * 多线程，加锁同步,不推荐，延迟高
  */
 public class Singleton3 {
     private static Singleton3 instance = null;
