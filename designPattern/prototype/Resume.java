@@ -43,6 +43,7 @@ public class Resume implements Cloneable {
     public Object clone() {
         Resume resume = null;
         try {
+            // 复制类的对象，如果类中有类，克隆的是引用
             resume = (Resume) super.clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
